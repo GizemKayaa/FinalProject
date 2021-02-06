@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace DataAccess.Abstract
-{
-    public interface IProductDal:IEntityRepository<Product>
+{   //generic constraint
+    public interface ICategoryDal:IEntityRepository<Category> 
     {
-      
 
+       
     }
 }
